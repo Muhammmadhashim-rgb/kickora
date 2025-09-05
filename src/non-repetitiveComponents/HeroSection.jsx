@@ -22,7 +22,14 @@ export default class HeroSection extends Component {
                </button>
 
 
+
+               <img className='absolute top-[55%] left-[84%] ' src="\Images\HeroSide1.svg" alt="" />
+               <img className='absolute top-[75%] left-[84%] ' src="\Images\HeroSide2.svg" alt="" />
+
+
             </div>
+
+
 
          </div>
       )
