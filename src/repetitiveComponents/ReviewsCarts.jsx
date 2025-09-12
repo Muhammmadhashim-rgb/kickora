@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-export default class ReviewsCarts extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+
+function ReviewsCarts(props) {
+
+  <div>
+    <div className='reviewsbackground w-[25rem] bg-white h-[28rem] rounded-[2rem]'></div>
+  </div>
+
 }
+
+
+export default ReviewsCarts
