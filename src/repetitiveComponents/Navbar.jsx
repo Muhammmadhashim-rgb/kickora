@@ -3,7 +3,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 export default class Navbar extends Component {
    constructor(props) {
-      super(props);
+      super(props)
       this.state = {
          menOpen: false,
          woOpen: false

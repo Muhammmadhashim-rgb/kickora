@@ -5,6 +5,10 @@ import NEWdropsHeading from './non-repetitiveComponents/NEWdropsHeading';
 
 
 function App() {
+
+  console.log("Width:", window.innerWidth);
+console.log("Height:", window.innerHeight);
+
   return (
     <div className="Home_page mx-auto container">
       <Navbar/>
