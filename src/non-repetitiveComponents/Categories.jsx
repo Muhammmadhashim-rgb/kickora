@@ -15,7 +15,7 @@ export default class Categories extends Component {
                      </button>
 
                      <button className="rounded-[0.5rem] cursor-pointer  bg-[#E7E7E3]  h-12 px-3 py-8 flex justify-center items-center gap-1 text-black font-rubik text-sm leading-normal tracking-[0.01563rem] uppercase transition-all duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06" clipRule="evenodd"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" d="M9.97 7.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06L13.44 12L9.97 8.53a.75.75 0 0 1 0-1.06" clipRule="evenodd" /></svg>
                      </button>
 
 
@@ -26,14 +26,16 @@ export default class Categories extends Component {
 
                <div className='flex'>
 
-                  <div className='w-full ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
+                  <div className='2xl:w-full xl:w-[44rem] xl:h-[41rem] ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
 
-                     <div className="w-[32rem] h-64 mt-48 ms-48 overflow-hidden">
+                     <div className="2xl:w-[32rem] xl:w-[28rem] xl:h-60 2xl:h-64 mt-48 ms-48 overflow-hidden">
+
                         <img
-                           className="w-full h-full object-cover  object-center"
+                           className="2xl:w-[100%] lg:w-[90%] 2xl:h-full object-cover  object-center"
                            src="/Images/CategoriesiImage1.png"
                            alt="Category Image"
                         />
+
                      </div>
 
                      <div className='flex justify-between mt-6'>
@@ -48,16 +50,16 @@ export default class Categories extends Component {
                      </div>
 
                   </div>
-                  <div className='w-full h-[40rem] mt-[3.2rem]   bg-[#F6F6F6]'>
+                  <div className='2xl:w-full  xl:w-[44rem] xl:h-[41rem] h-[40rem] mt-[3.2rem]   bg-[#F6F6F6]'>
 
 
-                     <div className="w-[32rem] h-64 mt-48 ms-48 overflow-hidden">
+                     {/* <div className="2xl:w-[32rem] 2xl:h-64 mt-48 ms-48 overflow-hidden">
                         <img
                            className="w-full h-full object-cover  object-center"
                            src="/Images/CategoriesiImage2.png"
                            alt="Category Image"
                         />
-                     </div>
+                     </div> */}
 
                      <div className='flex justify-between mt-6'>
                         <h1 className=' ps-16 pt-12  text-[#232321] font-rubik text-[2.25rem]  font-semibold leading-normal uppercase'>Basketball <span className='block leading-[35px]'>Shoes</span></h1>
