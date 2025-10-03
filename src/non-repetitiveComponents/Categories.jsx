@@ -26,12 +26,12 @@ export default class Categories extends Component {
 
                <div className='flex'>
 
-                  <div className='2xl:w-full xl:w-[44rem] xl:h-[41rem] ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
+                  <div className='2xl:w-full xl:w-[35rem] xl:h-[41rem] ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
 
-                     <div className="2xl:w-[32rem] xl:w-[28rem] xl:h-60 2xl:h-64 mt-48 ms-48 overflow-hidden">
+                     <div className="2xl:w-[38rem] xl:w-[27rem] xl:h-60 2xl:h-64 mt-48 2xl:ms-48 xl:ms-28 overflow-hidden">
 
                         <img
-                           className="2xl:w-[100%] lg:w-[90%] 2xl:h-full object-cover  object-center"
+                           className="2xl:w-[80%] lg:w-[80%] 2xl:h-full object-cover  object-center"
                            src="/Images/CategoriesiImage1.png"
                            alt="Category Image"
                         />
@@ -50,16 +50,16 @@ export default class Categories extends Component {
                      </div>
 
                   </div>
-                  <div className='2xl:w-full  xl:w-[44rem] xl:h-[41rem] h-[40rem] mt-[3.2rem]   bg-[#F6F6F6]'>
+                  <div className='2xl:w-full  xl:w-[35rem] xl:h-[41rem] h-[40rem] mt-[3.2rem]   bg-[#F6F6F6]'>
 
 
-                     {/* <div className="2xl:w-[32rem] 2xl:h-64 mt-48 ms-48 overflow-hidden">
+                     <div className="2xl:w-[38rem] xl:w-[27rem] xl:h-60 2xl:h-64 mt-48 2xl:ms-48 xl:ms-28">
                         <img
-                           className="w-full h-full object-cover  object-center"
+                           className="2xl:w-[80%] lg:w-[80%] 2xl:h-full object-cover  object-center"
                            src="/Images/CategoriesiImage2.png"
                            alt="Category Image"
                         />
-                     </div> */}
+                     </div>
 
                      <div className='flex justify-between mt-6'>
                         <h1 className=' ps-16 pt-12  text-[#232321] font-rubik text-[2.25rem]  font-semibold leading-normal uppercase'>Basketball <span className='block leading-[35px]'>Shoes</span></h1>
