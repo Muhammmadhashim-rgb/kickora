@@ -13,7 +13,7 @@ export default class Reviews extends Component {
                </button>
             </div>
             <div className='carts'>
-               <ReviewsCarts/>
+               <ReviewsCarts />
             </div>
          </div>
       )

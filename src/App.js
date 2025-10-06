@@ -32,7 +32,7 @@ function App() {
       </div>
 
       <div className="container mx-auto">
-       <Reviews/>
+        <Reviews />
       </div>
 
     </div>

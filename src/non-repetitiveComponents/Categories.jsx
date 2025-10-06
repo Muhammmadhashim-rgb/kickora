@@ -28,7 +28,7 @@ export default class Categories extends Component {
 
                   <div className='2xl:w-full xl:w-[35rem] xl:h-[41rem] ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
 
-                     <div className="2xl:w-[38rem] xl:w-[27rem] xl:h-60 2xl:h-64 mt-48 2xl:ms-48 xl:ms-28 overflow-hidden">
+                     <div className="2xl:w-[45rem] xl:w-[27rem] xl:h-60 2xl:h-64 mt-48 2xl:ms-48 xl:ms-28 overflow-hidden">
 
                         <img
                            className="2xl:w-[80%] lg:w-[80%] 2xl:h-full object-cover  object-center"
