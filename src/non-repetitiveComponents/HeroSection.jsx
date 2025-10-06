@@ -4,7 +4,11 @@ export default class HeroSection extends Component {
    render() {
       return (
          <div>
-            <h1 className='text-[16.2rem] text-center leading-none font-bold uppercase  text-[#232321] font-rubik'>Do it <span className='text-[#005F73]  font-rubik'>right</span></h1>
+            <h1 className="text-[3rem] sm:text-[2rem] lg:text-[5rem] xl:text-[13rem] 2xl:text-[16rem] text-center leading-none font-bold uppercase text-[#232321] font-rubik">
+               Do it
+               <span className="text-[#005F73] font-rubik">right</span>
+            </h1>
+
 
             <div className="relative w-full">
 

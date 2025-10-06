@@ -20,7 +20,7 @@ export default class Navbar extends Component {
    render() {
       return (
          <div>
-            <div className="flex w-auto p-7 my-10 justify-between items-center rounded-2xl bg-[#FAFAFA]">
+            <div className=" flex w-auto p-7 my-10 justify-between items-center rounded-2xl bg-[#FAFAFA]">
                {/* Left Menu */}
                <ul className="flex gap-2 items-center">
                   <li>

@@ -4,9 +4,9 @@ import ShoesCard from '../repetitiveComponents/ShoesCard'
 export default class NEWdropsHeading extends Component {
   render() {
     return (
-      <div>
+      <div className=''>
         <div className="flex justify-between items-end mt-24">
-          <h1 className="leading-[55px] text-[3.5rem] font-semibold uppercase text-[#232321] font-rubik">
+          <h1 className="leading-[55px] text-[4rem] font-semibold uppercase text-[#232321] font-rubik">
             Don’t miss out
             <span className="mt-0 leading-normal block"> new drops</span>
           </h1>
