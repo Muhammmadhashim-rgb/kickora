@@ -12,8 +12,10 @@ export default class Reviews extends Component {
                   See all
                </button>
             </div>
-            <div className='carts'>
-               <ReviewsCarts />
+            <div className='carts flex gap-[72px]'>
+               <ReviewsCarts h1="Good Quality" para="I highly recommend shopping from kicks" reviewProflieImage="/Images/reviewCart1.svg" data="5.0" reviewImage="/Images/Reviews1.png" />
+               <ReviewsCarts h1="Good Quality" para="I highly recommend shopping from kicks" reviewProflieImage="/Images/reviewCart1.svg" data="3.0" reviewImage="/Images/Reviews2.png" />
+               <ReviewsCarts h1="Good Quality" para="I highly recommend shopping from kicks" reviewProflieImage="/Images/reviewCart1.svg" data="8.0" reviewImage="/Images/Reviews3.png" />
             </div>
          </div>
       )
