@@ -4,13 +4,13 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <div className='bg-[#005F73] w-full h-[28rem] rounded-t-[48px] p-[72px] flex gap-[20rem] '>
+        <div className='bg-[#005F73] w-full  rounded-t-[48px] p-[72px] flex justify-between'>
           <div>
-            <h1 className='font-rubik text-[48px] font-[600] text-white'>Join our KicksPlus <br /> Club & get 15% off</h1>
-            <p className='font-rubik text-[20px] font-[400] text-[#E7E7E3] my-3'>Sign up for free! Join the community.</p>
+            <h1 className='font-rubik 2xl:text-[48px] xl:text-[38px] font-[600] text-white'>Join our KicksPlus <br /> Club & get 15% off</h1>
+            <p className='font-rubik 2xl:text-[20px] xl:text-[18px] font-[400] text-[#E7E7E3] my-3'>Sign up for free! Join the community.</p>
 
-            <div className='my-6'>
-              <input className='w-[342px]  px-5 outline-none rounded-[10px] py-3 bg-transparent border-[2px] text-[#E7E7E3] text-[16px]' type="text" name="" id="" placeholder='Email address' />
+            <div className='my-6 flex '>
+              <input className='2xl:w-[342px]  xl:w-[300px]  px-5 outline-none rounded-[10px] py-3 bg-transparent border-[2px] text-[#E7E7E3] text-[16px]' type="text" name="" id="" placeholder='Email address' />
 
               <button className=' ms-4 bg-[#232321] hover:bg-[#2c2c2a] text-white text-[14px]  font-[500] font-rubik py-3 px-5 rounded-[8px]'>Submit</button>
             </div>
@@ -20,8 +20,8 @@ export default class Footer extends Component {
           </div>
         </div>
 
-        <div className='h-[36rem] w-full p-[72px] mt-[-60px] rounded-[3rem] bg-[#232321] overflow-clip'>
-          <div className='flex gap-52'>
+        <div className=' w-full pt-[72px] px-[72px] mt-[-60px] rounded-[3rem] bg-[#232321] overflow-clip'>
+          <div className='flex 2xl:gap-52 xl:gap-[6rem]'>
             <div>
               <h1 className='text-[2.25rem] font-rubik font-[600] text-[#FFA52F]'>About us</h1>
               <p className='text-[1.25rem] font-sans-serif font-normal text-[#E7E7E3] mt-3'>We are the biggest hyperstore in the universe.  We got you all cover with our exclusive collections and latest drops.</p>

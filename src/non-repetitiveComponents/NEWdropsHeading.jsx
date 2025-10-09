@@ -18,7 +18,7 @@ export default class NEWdropsHeading extends Component {
 
         <div className=' mt-9 card flex gap-5'>
           <ShoesCard cardImage='/Images/shoes1.png' cardHeading1="ADIDAS 4DFWD X PARLEY" cardHeading2="RUNNING SHOES" cardPrize='$35' />
-          <ShoesCard cardImage='/Images/shoes2.png' cardHeading1="ADIDAS 4DFWD X PARLEY" cardHeading2="RUNNING SHOES" cardPrize='$235' />
+          <ShoesCard cardImage='/Images/shoes2.png' cardHeading1="ADIDAS 4DFWD X PARLEY" cardHeading2="RUNNING SHOES" cardPrize='$25' />
           <ShoesCard cardImage='/Images/shoes3.png' cardHeading1="ADIDAS 4DFWD X PARLEY" cardHeading2="RUNNING SHOES" cardPrize='$21' />
           <ShoesCard cardImage='/Images/shoes4.png' cardHeading1="ADIDAS 4DFWD X PARLEY" cardHeading2="RUNNING SHOES" cardPrize='$95' />
          

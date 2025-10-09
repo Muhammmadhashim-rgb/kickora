@@ -7,7 +7,7 @@ function ReviewsCarts(props) {
     <div>
       <div className='reviewsbackground  2xl-w-[29rem] xl-w-[22rem] bg-white h-[28rem] rounded-[2rem]'>
         <div className='p-[30px]'>
-          <div className='flex items-center gap-[185px]'>
+          <div className='flex items-center justify-between'>
             <h1 className='font-rubik text-[1.5rem] font-[600] text-[#232321]'>{props.h1}</h1>
             <img src={props.reviewProflieImage} alt="" />
           </div>

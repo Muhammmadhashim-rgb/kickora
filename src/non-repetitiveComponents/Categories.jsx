@@ -24,9 +24,9 @@ export default class Categories extends Component {
 
                </div>
 
-               <div className='flex flex-col md:flex-row'>
+               <div className='flex flex-col md:flex-row mt-[15px]'>
 
-                  <div className='2xl:w-full xl:w-[35rem] xl:h-[41rem] ms-44 h-[40rem] mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
+                  <div className='2xl:w-full xl:w-[35rem]  ms-44  mt-[3.2rem] rounded-tl-[64px]  bg-[#ECEEF0]'>
 
                      <div className="2xl:w-[45rem] xl:w-[27rem] xl:h-60 2xl:h-64 mt-48 2xl:ms-48 xl:ms-28 overflow-hidden">
 
