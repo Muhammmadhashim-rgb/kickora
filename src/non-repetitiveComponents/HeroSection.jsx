@@ -4,8 +4,8 @@ export default class HeroSection extends Component {
    render() {
       return (
          <div>
-            <h1 className="text-[3rem]  lg:text-[9rem] xl:text-[12rem] 2xl:text-[15rem]  text-center leading-none font-bold uppercase text-[#232321] font-rubik">
-               Do it 
+            <h1 className="md:text-[7rem]  sm:text-[6rem]  lg:text-[9rem] xl:text-[12rem] 2xl:text-[15rem]  text-center leading-none font-bold uppercase text-[#232321] font-rubik">
+               Do it
                <span className="text-[#005F73] font-rubik">right</span>
             </h1>
 
@@ -15,7 +15,7 @@ export default class HeroSection extends Component {
                <img className="w-full" src="\Images\Hero-image.svg" alt="" />
 
 
-               <h1 className="absolute 2xl:top-[60%] xl:top-[60%] lg:top-[55%] left-[5%]  
+               <h1 className="absolute 2xl:top-[60%] xl:top-[60%] lg:top-[55%] md:top-[48%] left-[5%]  
                  text-white font-rubik 2xl:text-[4rem] xl:text-[3.5rem] lg:text-[3rem] font-semibold leading-normal">
                   NIKE AIR MAX
                </h1>
