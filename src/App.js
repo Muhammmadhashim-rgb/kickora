@@ -10,11 +10,11 @@ import Footer from './repetitiveComponents/Footer';
 function App() {
   return (
     <div className='Home_page'>
-     <div className="container mx-auto px-4 sm:px-6 lg:px-12">
-  <Navbar />
-  <HeroSection />
-  <NEWdropsHeading />
-</div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
+        <Navbar />
+        <HeroSection />
+        <NEWdropsHeading />
+      </div>
 
       <div>
         <Categories />
@@ -23,9 +23,9 @@ function App() {
         <Reviews />
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 mt-[12%]">
-        <Footer/> 
+        <Footer />
       </div>
-     
+
     </div>
 
 
